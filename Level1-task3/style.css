@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.nav
+{
+  width: 100vw;
+  display: flex;
+  height: 10vh;
+  background-color:#e77f00;
+  justify-content: space-evenly;
+}
+.nav ul
+{
+  margin-bottom: 2vh;
+  margin-left: 30vw;
+  color:rgb(3, 3, 35); 
+  display: flex;
+  
+}
+.nav ul li{
+  font-family: 'Salsa', cursive;
+  margin-top: 1vh;
+ margin-left: 5vw;
+  list-style: none;
+}
+.tempname
+{
+  display: flex;
+  justify-self: left;
+  margin-right: 10vw;
+   font-family: 'Shantell Sans', cursive;
+   font-weight: bolder;
+  font-size: 2rem;
+  color: rgb(3, 3, 35); 
+}
+.container1
+{
+font-family: 'Salsa', cursive;
+background-color: rgb(3, 3, 35);  
+height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.container1 h1{
+  color: #e77f00;
+}
+.box
+{
+  font-family: 'Salsa', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30vh;
+  width: 30vw;
+  background-color: #e77f00;
+  color: rgb(3, 3, 35);
+  border: 7px solid black;
+  border-radius: 10px;
+}
+.box input
+{
+  font-family: 'Salsa', cursive;
+  background-color:rgb(3, 3, 35);
+  color: #e77f00;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.btn
+{
+  font-family: 'Salsa', cursive;
+  height: 5vh;
+  width: 8vw;
+  border-radius: 3px;
+  background-color:rgb(3, 3, 35);
+  color: #e77f00;
+  border: 2px solid black;
+}
+.footer
+{
+  font-family: 'Salsa', cursive;
+  margin-top: 15px;
+  
+}
+.foot-panel1
+{
+  font-family: 'Salsa', cursive;
+  background-color:#e77f00;
+  color:rgb(3, 3, 35) ;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.foot-panel2
+{
+  font-family: 'Salsa', cursive;
+  background-color: #e77f00 ;
+  color: rgb(3, 3, 35);
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul{
+  margin-top: 20px;
+}
+ul a{
+  font-family: 'Salsa', cursive;
+  display: block;
+  color: rgb(3, 3, 35);
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+.foot-panel3
+{
+  font-family: 'Salsa', cursive;
+  background-color:  #e77f00;
+  color: rgb(3, 3, 35);
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-panel4
+{
+  background-color:  #e77f00;
+  color:rgb(3, 3, 35);
+  font-family: 'Salsa', cursive;
+  
+  height: 75px;
+  font-size: 0.75rem;
+text-align: center;
+}
+
+.copyright
+{
+padding-top: 5px;
+font-family: 'Salsa', cursive;
+font-size: 1.5rem;
+}
